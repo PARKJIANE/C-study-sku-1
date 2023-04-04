@@ -1,4 +1,4 @@
-// Æò±Õ °è»êÇÏ±â ÇÁ·Î±×·¥
+// í‰ê·  ê³„ì‚°í•˜ê¸° í”„ë¡œê·¸ë¨
 /*
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -7,19 +7,19 @@ int main()
 	double num1, num2, num3;
 	double sum, avg;
 
-	printf("3°³ÀÇ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("3ê°œì˜ ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%lf %lf %lf", &num1, &num2, &num3);
 
 	sum = num1 + num2 + num3;
 	avg = sum / 3;
-	printf("ÇÕ°è=%.2f\n", sum); //.2f ¼Ò¼öÁ¡ 2¹øÂ° ±îÁö Ç¥½Ã
-	printf("Æò±Õ=%.2f\n", avg);
+	printf("í•©ê³„=%.2f\n", sum); //.2f ì†Œìˆ˜ì  2ë²ˆì§¸ ê¹Œì§€ í‘œì‹œ
+	printf("í‰ê· =%.2f\n", avg);
 
 	return 0;
 }
 */
 
-//»ç°¢ÇüÀÇ µÑ·¹¿Í ¸éÀû
+//ì‚¬ê°í˜•ì˜ ë‘˜ë ˆì™€ ë©´ì 
 /*
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
@@ -34,8 +34,8 @@ int main()
 	area = w * h;
 	perimeter = 2 * (w + h);
 
-	printf("»ç°¢ÇüÀÇ ³ĞÀÌ: %lf\n", area);
-	printf("»ç°¢ÇüÀÇ µÑ·¹: %lf\n", perimeter);
+	printf("ì‚¬ê°í˜•ì˜ ë„“ì´: %lf\n", area);
+	printf("ì‚¬ê°í˜•ì˜ ë‘˜ë ˆ: %lf\n", perimeter);
 
 	return 0;
 }
